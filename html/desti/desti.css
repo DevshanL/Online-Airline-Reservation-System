@@ -1,0 +1,302 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+
+div ul
+{
+	border: 3px solid #000000;
+	height : 50px;
+}
+
+div ul li
+{
+	list-style-type: none;
+	width: 150px;
+	float: left;
+	border-right: 1px solid #000000;
+	text-align: center;
+
+}
+
+li a 
+{
+	text-decoration: none;
+	color:black;
+	font-family:Century Gothic;
+	line-height: 50px;
+	display: block;
+	font-weight:bold;
+	
+}
+
+li a:hover 
+{
+	background-color: #fdb800;
+	color : white;
+}
+*Navigation path*/
+nav {
+background-color: #FFFFE0;
+height: 38px;
+}
+nav ul li{
+list-style-type: none;
+width: 150px;
+float: left;
+border: 3px solid #000000;
+border-right: 1px solid #000000;
+text-align: center;
+
+}
+
+nav li a {
+text-decoration: none;
+color: Black;
+font-family:Century Gothic;
+line-height: 38px;
+display: block;
+font-weight:bold;
+}
+
+li a:hover {
+background-color: #fdb800;
+color : white;
+}
+a {
+
+text-decoration: none;
+font-family:Century Gothic;
+color: Black;
+}
+
+
+/* three buttons styles*/
+.button {
+  border: none;
+  color: black;
+  padding: 20px 35px;
+  font-weight:bold;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 6px 4px;
+  cursor: pointer;
+}
+
+
+/* select transit section styles*/
+.select{
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+height:6vh;
+background:#fff;
+font-family:Arial;
+color:#fff;
+}
+
+body
+{
+	background-image:url(vec.jpg);
+	background-size: cover;
+	background-position: center;
+	font-family:"roboto",sans-serif;
+	color:black;
+}
+
+.hero
+{
+	width: 100%;
+	height: 100%;
+	align-items:center;
+	justify-content: center;
+	text-align:center;
+	font-size:20;
+	
+}
+.hero:: before
+{
+	content: "";
+	position: absolute;
+	top: 0;
+	left; 0;
+}
+.main-heading 
+{
+	color: black;
+	align-items:center;
+	justify-content: center;
+	text-align:center;
+	text-shadow:1px 1px 1 rem rgba (0,0,0,.5);
+	margin-bottom:15px;
+	font-family: "Lucida Console", Courier, monospace;
+}
+.subtitle
+{
+	font-size: 200px;
+	font-weight: 300;
+	align-items:center;
+	justify-content: center;
+	text-align:center;
+	font-family: 'courgette', cursive;
+}
+
+.text1
+{
+	font-size:20px;
+	letter-spacing:1px;
+	word-spacing:3px;
+	font-family::Century Gothic;
+}
+	
+.container
+{
+	font-size:15;
+	color:black;
+	align-items:center;
+	justify-content: center;
+	text-align:center;
+	font-style:italic;
+	font-family:Century Gothic;
+	
+}
+.input-box
+{
+	margin:40px auto;
+	width: 100%;
+	align-items:center;
+	justify-content: center;
+	text-align:center;
+	border-bottom:1px solid #fff;
+	padding:30px 60px;
+	font-family:Century Gothic;
+	background:transparent;
+	
+}
+.input-grp
+{
+	align-items:center;
+	justify-content: center;
+	text-align:center;
+	font-size:40;
+	font-family:Century Gothic;
+	background:transparent;
+}
+	
+.custom-select
+{
+	font-family:Century Gothic;
+	width:50%;
+	border:2px;
+	outline:2px;
+	display: inline-block;
+	align-items:center;
+	justify-content: center;
+	text-align:center;
+	background:gray;
+	font-size:20px;
+	padding:10px 30px;
+}
+
+.container
+{
+	text-align: center;
+	margin-top:360px;
+}
+.btn
+{
+	border: 1px #808080;
+	background-color:#808080;
+	padding:10px 40px;
+	font-size:20px;
+	cursor: pointer;
+	margin: 10px;
+}
+
+.btn1,.btn2
+{
+	color:#FFFFFF;
+}
+.btn3,.btn4
+{
+	color:#FFFFFF;;
+}
+.btn5,.btn6
+{
+	color:#FFFFFF;;
+}
+.btn1,:hover,
+{
+	color:#000000;
+}
+	
+.btn2:hover
+{
+	color:#000000;
+}
+.btn3:hover,
+{
+	color:#000000;
+}
+.btn4:hover
+{
+	color#000000;
+}
+.btn5:hover,
+{
+	color:#000000;
+	
+}
+.btn6:hover
+{
+	color:#000000;
+}
+.btn::before{
+	content: "";
+	position: absolute;
+	left:0;
+	width:100%;
+	height:100%;
+	z-index: -1;
+	transition:0.8s;
+}
+.btn1:before,.btn2:before
+{
+	top:0;
+	border-radius: 0 0 50% 50%;
+
+}
+.btn3:before,.btn4:before
+{
+	top:0;
+	border-radius: 0 0 50% 50%;
+
+}
+.btn5:before,.btn6:before
+{
+	top:0;
+	border-radius: 0 0 50% 50%;
+
+}
+
+.grid
+{
+	cursor: pointer;
+	color:#800080;
+}
+.grid::hover
+{
+	color:#800080;
+}
+.footer 
+{
+  text-align:center;
+  padding: 3px;
+  background-color: #586060;
+  color:#FFDA00;
+}
+ 
